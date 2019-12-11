@@ -12,7 +12,8 @@ setup(
     zip_safe=False,
     entry_points={
         'foyer.forcefields':[
-        "{{cookiecutter.first_plugin_name}} = {{cookiecutter.directory_name}}.{{cookiecutter.first_module_name}}:{{cookiecutter.first_plugin_name}}"
+        "{{cookiecutter.class_name}} =
+        {{cookiecutter.directory_name}}.{{cookiecutter.first_module_name}}:{{cookiecutter.class_name}}"
         ]
         }
     )
