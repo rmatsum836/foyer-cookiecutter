@@ -12,7 +12,7 @@ def context():
     "project_name": "my_test_project",
     "directory_name": "my_test_project",
     "first_module_name": "first_module",
-    "first_plugin_name": "first_class",
+    "class_name": "dnaff",
     "author_name": "Big Chungus",
     "author_email": "boomer@hotmail.com",
     "description": "A short description of the project.",
