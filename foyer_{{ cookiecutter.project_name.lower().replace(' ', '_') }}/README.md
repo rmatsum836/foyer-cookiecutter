@@ -1,8 +1,7 @@
 {{cookiecutter.project_name}}
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/{{cookiecutter.project_name}}.svg?branch=master)](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/{{cookiecutter.project_name}})
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/{{cookiecutter.project_name}}/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/{{cookiecutter.project_name}}/branch/master)
+[![DOI](https://zenodo.org/badge/DOI/REPLACE_WITH_FF_DOI)](https://doi.org/REPLACE_WITH_FF_DOI)
 
 {{cookiecutter.description}}
 
@@ -14,4 +13,4 @@ Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.author_name}}
 #### Acknowledgements
  
 Project based on the 
-[mBuild Recipe Cookiecutter]
+[Foyer Forcefield Cookiecutter]
