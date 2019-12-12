@@ -1,0 +1,22 @@
+<ForceField>
+    <AtomTypes>
+        <Type name="" class="" element="" mass="" def="" overrides=""/>
+    </AtomTypes>
+    <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+        <Atom type="" charge="" sigma"" epsilon=""/>
+    </NonbondedForce>
+    <HarmonicBondForce>
+        <Bond class1="" class2="" length="" k=""/>
+    </HarmonicBondForce>
+    <HarmonicAngleForce>
+        <Angle class1="" class2="" class3="" angle="" k=""/>
+    </HarmonicAngleForce>
+    <PeriodicTorsionForce>
+        <Proper class1="" class2="" class3="" class4=""
+            periodicity1="" phase1="" k1=""
+            periodicity2="" phase2="" k2=""
+            periodicity3="" phase3="" k3=""
+            periodicity4="" phase4="" k4=""
+            periodicity5="" phase5="" k5=""/>
+    </PeriodicTorsionForce>
+</ForceField>
