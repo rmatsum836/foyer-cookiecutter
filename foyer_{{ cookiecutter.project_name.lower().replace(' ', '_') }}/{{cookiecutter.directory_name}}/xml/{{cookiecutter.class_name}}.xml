@@ -1,6 +1,6 @@
 <ForceField>
     <AtomTypes>
-        <Type name="" class="" element="" mass="" def="" overrides=""/>
+        <Type name="" class="" element="" mass="" def="" overrides="" doi="{{cookiecutter.DOI}}"/>
     </AtomTypes>
     <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
         <Atom type="" charge="" sigma"" epsilon=""/>
