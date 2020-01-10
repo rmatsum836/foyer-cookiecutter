@@ -13,7 +13,7 @@ def context():
     "directory_name": "organics",
     "first_module_name": "organics",
     "class_name": "ORG",
-    "DOI": "Made up DOI"
+    "DOI": "Made up DOI",
     "author_name": "Mike Vrabel",
     "author_email": "boomer@hotmail.com",
     "description": "A short description of the project.",
@@ -35,7 +35,7 @@ def test_project_generation(cookies, context):
     Test that project is generated and fully rendered.
     """
     result = cookies.bake(extra_context={**context})
-
+    
     assert result.exit_code == 0
     assert result.exception is None
     assert result.project.basename == 'foyer_' + context['project_name']
