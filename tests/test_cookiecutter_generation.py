@@ -35,6 +35,7 @@ def test_project_generation(cookies, context):
     Test that project is generated and fully rendered.
     """
     result = cookies.bake(extra_context={**context})
+
     assert result.exit_code == 0
     assert result.exception is None
     assert result.project.basename == 'foyer_' + context['project_name']
