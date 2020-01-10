@@ -1,3 +1,6 @@
+[//]: # (Badges)
+[![Build Status](https://travis-ci.com/rmatsum836/foyer-cookiecutter.svg?branch=master)](https://travis-ci.com/rmatsum836/foyer-cookiecutter)
+
 # foyer-cookiecutter
 A [cookiecutter](https://github.com/audreyr/cookiecutter) template to develop [foyer](https://github.com/mosdef-hub/foyer) force field classes.
 
