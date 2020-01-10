@@ -1,0 +1,6 @@
+numpy
+pytest
+foyer
+mdtraj
+parmed
+setuptools

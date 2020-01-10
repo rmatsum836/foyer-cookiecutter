@@ -13,7 +13,7 @@ def context():
     "directory_name": "organics",
     "first_module_name": "organics",
     "class_name": "ORG",
-    "DOI": "Made up DOI"
+    "DOI": "Made up DOI",
     "author_name": "Mike Vrabel",
     "author_email": "boomer@hotmail.com",
     "description": "A short description of the project.",
