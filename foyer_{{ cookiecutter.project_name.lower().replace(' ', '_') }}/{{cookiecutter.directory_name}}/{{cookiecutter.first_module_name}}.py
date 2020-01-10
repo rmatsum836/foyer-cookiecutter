@@ -1,9 +1,9 @@
 import os
 import glob
-from pkg_resource import resource_filename
+from pkg_resources import resource_filename
 
 def get_ff_path():
-    return [resource_filename('{{ cookiecutter.project_name }}', 'xml')]
+    return [resource_filename('{{ cookiecutter.directory_name }}', 'xml')]
 
 def get_{{ cookiecutter.project_name }}_forcefield_path():
     for dir_path in get_ff_path():
