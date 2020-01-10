@@ -9,11 +9,12 @@ RE_OBJ = re.compile(PATTERN)
 @pytest.fixture
 def context():
     return {
-    "project_name": "my_test_project",
-    "directory_name": "my_test_project",
-    "first_module_name": "first_module",
-    "class_name": "dnaff",
-    "author_name": "Big Chungus",
+    "project_name": "test_ff",
+    "directory_name": "organics",
+    "first_module_name": "organics",
+    "class_name": "ORG",
+    "DOI": "Made up DOI"
+    "author_name": "Mike Vrabel",
     "author_email": "boomer@hotmail.com",
     "description": "A short description of the project.",
     "open_source_license": "MIT"
@@ -37,7 +38,7 @@ def test_project_generation(cookies, context):
 
     assert result.exit_code == 0
     assert result.exception is None
-    assert result.project.basename == 'mbuild_' + context['project_name']
+    assert result.project.basename == 'foyer_' + context['project_name']
     assert result.project.isdir()
 
     paths = build_files_list(str(result.project))
