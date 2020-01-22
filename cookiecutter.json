@@ -2,7 +2,7 @@
     "project_name": "ProjectName",
     "directory_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "first_module_name": "{{ cookiecutter.directory_name.lower().replace(' ', '_') }}",
-    "class_name": "Name of variable that loads in force field",
+    "xml_name": "Name of foyer force field xml",
     "DOI": "DOI of force field being used",
     "author_name": "Your name (or your organization/company/team)",
     "author_email": "Your email (or your organization/company/team)",

@@ -16,4 +16,4 @@ def get_{{ cookiecutter.project_name }}_forcefield():
     return Forcefield(get_{{ cookiecutter.project_name }}_forcefield_path())
 
 
-{{ cookiecutter.class_name }} = get_{{ cookiecutter.project_name }}_forcefield()
+{{ cookiecutter.xml_name }} = get_{{ cookiecutter.project_name }}_forcefield()
